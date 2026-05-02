@@ -9,7 +9,7 @@
 }
 
 header,
-main{
+main {
     background-color: rgba(250, 235, 215, 0.096);
 }
 
@@ -79,7 +79,7 @@ main{
 
 .working-content {
     max-width: 700px;
-    border-left: 2px solid rgba(128, 128, 128, 0.336) ;
+    border-left: 2px solid rgba(128, 128, 128, 0.336);
     padding-left: 15px;
 }
 
@@ -93,7 +93,7 @@ main{
     font-size: 22px;
     margin-bottom: 13px;
     color: #474747;
-    
+
 }
 
 .working-content p {
@@ -128,7 +128,7 @@ main{
 .experience-card-container {
     display: flex;
     flex-direction: column;
-    border-left: 1px solid rgba(128, 128, 128, 0.336) ;
+    border-left: 1px solid rgba(128, 128, 128, 0.336);
     padding-left: 10px;
 
 }
@@ -168,4 +168,32 @@ main{
     color: #757575;
     line-height: 20px;
     padding: 10px;
+}
+
+
+.footer-div {
+    text-align: center;
+    /* background-color: rgba(255, 228, 196, 0.219); */
+    background-color: rgba(128, 128, 128, 0.048);
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 24px 24px 0 0;
+    margin: 0 auto;
+    border-top: 1px solid rgba(128, 128, 128, 0.164);
+    color: rgba(0, 0, 0, 0.863);
+}
+
+.footer-div h3 {
+    margin-bottom: 20px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icon {
+    max-width: 20px;
+
 }
