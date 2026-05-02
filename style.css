@@ -20,16 +20,16 @@
 
 
 .banner-container {
-    max-width: 85%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     /* background-color: bisque; */
     align-items: center;
 }
 
 .banner-content {
-    max-width: 800px;
+    max-width: 850px;
 }
 
 .banner-content h1 {
@@ -55,5 +55,49 @@
 
 .banner-image img {
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
+}
+
+/* Working Section related styles */
+
+
+.working-container {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    /* background-color: bisque; */
+    align-items: center;
+}
+
+.working-content {
+    max-width: 700px;
+}
+
+.working-content h2 {
+    font-size: 30px;
+    margin-bottom: 13px;
+    font-weight: 700;
+}
+
+.working-content h3 {
+    font-size: 22px;
+    margin-bottom: 13px;
+    color: #474747;
+}
+
+.working-content p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+
+
+.working-image img {
+    width: 100%;
+    max-width: 450px;
+    padding-left: 100px;
 }
