@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
@@ -26,6 +26,13 @@ main {
     border-radius: 25px;
     background-color: rgba(0, 0, 255, 0.575);
     cursor: pointer;
+
+    transition: transform 1s linear;
+}
+
+.primary-btn:hover {
+    transform: scale(1.05);
+
 }
 
 
@@ -121,7 +128,7 @@ main {
 .experience {
     max-width: 90%;
     margin: 0 auto;
-    background-color: rgba(0, 255, 255, 0.116);
+    background-color: rgba(0, 255, 255, 0.082);
     padding: 23px;
     border: none;
     border-radius: 24px;
