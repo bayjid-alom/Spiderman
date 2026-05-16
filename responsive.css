@@ -1,4 +1,11 @@
 @media screen and (max-width:576px) {
+
+    /* Banner Styles */
+    header,
+    .working {
+        margin-bottom: 70px;
+    }
+
     .banner-container {
         max-width: 95%;
         flex-direction: column-reverse;
@@ -12,13 +19,25 @@
 
     .banner-image img {
         width: 100%;
-        max-width: 350px;
+        max-width: 430px;
         display: flex;
         justify-content: center;
-        padding-left: 30px;
+        padding-left: 35px;
     }
 
     .banner-content p {
+        line-height: 28px;
+    }
+
+
+    /* Working Section */
+
+    .working-container {
+        max-width: 95%;
+        flex-direction: column-reverse;
+    }
+
+    .working-content p {
         line-height: 28px;
     }
 
