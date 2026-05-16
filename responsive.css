@@ -1,13 +1,19 @@
 @media screen and (max-width:576px) {
 
-    /* Banner Styles */
     header,
-    .working {
+    .working,
+    .experience {
         margin-bottom: 70px;
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Banner Styles */
+
     .banner-container {
-        max-width: 95%;
+        max-width: 92%;
         flex-direction: column-reverse;
         align-items: center;
     }
@@ -22,7 +28,7 @@
         max-width: 430px;
         display: flex;
         justify-content: center;
-        padding-left: 35px;
+        padding-left: 45px;
     }
 
     .banner-content p {
@@ -33,7 +39,7 @@
     /* Working Section */
 
     .working-container {
-        max-width: 95%;
+        max-width: 92%;
         flex-direction: column-reverse;
     }
 
@@ -44,11 +50,18 @@
     /* Experience Section */
 
     .experience {
-        max-width: 95%;
+        max-width: 92%;
     }
 
     .card p {
         line-height: 28px;
     }
+
+    footer {
+        width: 100%;
+    }
+
+
+
 
 }
