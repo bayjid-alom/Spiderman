@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.hide{
+    display: none;
+}
+
 .font-open-sans {
     font-family: "Open Sans", sans-serif;
 }

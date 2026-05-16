@@ -1,0 +1,25 @@
+@media screen and (max-width:576px) {
+    .banner-container {
+        max-width: 95%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .banner-content {
+        max-width: 100%;
+    }
+
+
+    .banner-image img {
+        width: 100%;
+        max-width: 350px;
+        display: flex;
+        justify-content: center;
+        padding-left: 30px;
+    }
+
+    .banner-content p {
+        line-height: 28px;
+    }
+
+}
